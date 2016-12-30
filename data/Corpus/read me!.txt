@@ -1,0 +1,2 @@
+sous dossier corpus qui représentent un corpus d'evaluation contenant par exemple
+25 documents et 6 requetes

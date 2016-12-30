@@ -1,0 +1,2 @@
+sous dossier Assessments qui représentent les jugments 
+de pertinence(pour l'evaluation)

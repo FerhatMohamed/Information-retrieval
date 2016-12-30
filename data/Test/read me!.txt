@@ -1,0 +1,2 @@
+sous dossier test qui représentent un corpus de test qui peut etre utilisé 
+pour la mise au point des programmes(pour diminuer les temps de traitements)

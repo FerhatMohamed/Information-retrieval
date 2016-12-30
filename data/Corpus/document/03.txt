@@ -1,0 +1,2 @@
+Relaxing feature selection in spam filtering by using case-based reasoning systems
+This paper presents a comparison between two alternative strategies for addressing feature selection on a well known case-based reasoning spam filtering system called SPAMHUNTING. We present the usage of the k more predictive features and a percentage-based strategy for the exploitation of our amount of information measure. Finally, we confirm the idea that the percentage feature selection method is more adequate for spam filtering domain.

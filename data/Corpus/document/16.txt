@@ -1,0 +1,4 @@
+Prototyping recommender systems in jcolibri
+Our goal is to support system developers in rapid prototyping recommender systems using Case-Based Reasoning (CBR) techniques. In this paper we describe how jCOLIBRI can serve to that goal. jCOLIBRI is an object-oriented framework in Java for building CBR systems that greatly benefits from the reuse of previously developed CBR systems.
+
+jCOLIBRI includes a case base of templates for case-based recommender systems that can be easily adapted to prototype a great variety of alternatives. We describe the contents of the case base and show experimental results from our experience using the recommender templates case base with mid-size projects from undergraduate students.

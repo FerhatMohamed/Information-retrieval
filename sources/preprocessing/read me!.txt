@@ -1,0 +1,2 @@
+sous dossier preprocessing qui contient les programmes de prétraitement pour 
+extraire les termes d'indexation
