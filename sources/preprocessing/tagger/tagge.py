@@ -1,19 +1,22 @@
+
+# ferhat mohamed
+
 import nltk
 import glob
 from nltk.tokenize import *
 
 
 #glob.glob  pour lister les fichier de dossier
-list_doc = glob.glob('L:tp_ri\data\Corpus\document\*')
+list_SW = glob.glob('L:tp_ri\data\Test\Stoplist\*')
 list_tag = glob.glob('L:tp_ri\data\Test\Pos-tagger\*')
 
 #crée les  listes
-documents = []
+doc_SW = []
 doc_tagge = []
 
 #remplir les listes
-for x in list_doc :
-    documents.append(open(x, 'r'))
+for x in list_SW :
+    doc_SW.append(open(x, 'r'))
 for y in list_tag :
     doc_tagge.append(open(y, 'w'))
 
@@ -21,7 +24,7 @@ for y in list_tag :
 tokken = TweetTokenizer()
 
 i = 0
-for file in documents:
+for file in doc_SW:
     file_tagge = doc_tagge[i]
     for line in file:
           tokeniii = tokken.tokenize(line)
@@ -31,7 +34,8 @@ for file in documents:
     i = i + 1
 
 
-for f in documents:
+for f in doc_SW:
     f.close()
 for h in doc_tagge:
     h.close()
+

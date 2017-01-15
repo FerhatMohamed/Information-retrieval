@@ -1,0 +1,211 @@
+<page>
+<id> 01 </id>
+<title> Email Spam Filtering: A Systematic Review </title>
+<text>
+Spam is information crafted to be delivered to a large number of recipients, in spite of their wishes. A spam filter is an automated tool to recognize spam so as to prevent its delivery. The purposes of spam and spam filters are diametrically opposed: spam is effective if it evades filters, while a filter is effective if it recognizes spam. The circular nature of these definitions, along with their appeal to the intent of sender and recipient make them difficult to formalize. A typical email user has a working definition no more formal than "I know it when I see it." Yet, current spam filters are remarkably effective, more effective than might be expected given the level of uncertainty and debate over a formal definition of spam, more effective than might be expected given the state-of-the-art information retrieval and machine learning methods for seemingly similar problems. But are they effective enough? Which are better? How might they be improved? Will their effectiveness be compromised by more cleverly crafted spam?
+We survey current and proposed spam filtering techniques with particular emphasis on how well they work. Our primary focus is spam filtering in email; Similarities and differences with spam filtering in other communication and storage media — such as instant messaging and the Web — are addressed peripherally. In doing so we examine the definition of spam, the user's information requirements and the role of the spam filter as one component of a large and complex information universe. Well-known methods are detailed sufficiently to make the exposition self-contained, however, the focus is on considerations unique to spam. Comparisons, wherever possible, use common evaluation measures, and control for differences in experimental setup. Such comparisons are not easy, as benchmarks, measures, and methods for evaluating spam filters are still evolving. We survey these efforts, their results and their limitations. In spite of recent advances in evaluation methodology, many uncertainties (including widely held but unsubstantiated beliefs) remain as to the effectiveness of spam filtering techniques and as to the validity of spam filter evaluation methods. We outline several uncertainties and propose experimental methods to address them.
+</text>
+</page>
+
+<page>
+<id> 02 </id>
+<title> A survey of learning-based techniques of email spam filtering </title>
+<text>
+Email spam is one of the major problems of the today's Internet, bringing financial damage to companies and annoying individual users. Among the approaches developed to stop spam, filtering is an important and popular one. In this paper we give an overview of the state of the art of machine learning applications for spam filtering, and of the ways of evaluation and comparison of different filtering methods. We also provide a brief description of other branches of anti-spam protection and discuss the use of various approaches in commercial and non-commercial anti-spam software solutions.
+</text>
+</page>
+
+<page>
+<id> 03 </id>
+<title> Relaxing feature selection in spam filtering by using case-based reasoning systems </title>
+<text>
+This paper presents a comparison between two alternative strategies for addressing feature selection on a well known case-based reasoning spam filtering system called SPAMHUNTING. We present the usage of the k more predictive features and a percentage-based strategy for the exploitation of our amount of information measure. Finally, we confirm the idea that the percentage feature selection method is more adequate for spam filtering domain.
+</text>
+</page>
+
+<page>
+<id> 04 </id>
+<title> Enhancing scalability in anomaly-based email spam filtering </title>
+<text>
+problem for computer security because it is a channel for the spreading of threats such as computer viruses, worms and phishing. Currently, more than 85% of received emails are spam. Historical approaches to combat these messages, including simple techniques such as sender blacklisting or the use of email signatures, are no longer completely reliable. Many solutions utilise machine-learning approaches trained using statistical representations of the terms that usually appear in the emails. However, these methods require a time-consuming training step with labelled data. Dealing with the situation where the availability of labelled training instances is limited slows down the progress of filtering systems and offers advantages to spammers. In a previous work, we presented the first spam filtering method based on anomaly detection that reduces the necessity of labelling spam messages and only employs the representation of legitimate emails. We showed that this method achieved high accuracy rates detecting spam while maintaining a low false positive rate and reducing the effort produced by labelling spam. In this paper, we enhance that system applying a data reduction algorithm to the labelled dataset, finding similarities among legitimate emails and grouping them to form consistent clusters that reduce the amount of needed comparisons. We show that this improvement reduces drastically the processing time, while maintaining detection and false positive rates stable.
+</text>
+</page>
+
+<page>
+<id> 05 </id>
+<title> Contributions to the study of SMS spam filtering: new collection and results </title>
+<text>
+The growth of mobile phone users has leadto a dramatic increasing of SMS spam messages. In practice, fighting mobile phone spam is difficult by several factors, including the lower rate of SMS that has allowed many users and service providers to ignore the issue, and the limited availability of mobile phone spam-filtering software. On the other hand, in academic settings, a major handicap is the scarcity of public SMS spam datasets, that are sorely needed for validation and comparison of different classifiers. Moreover, as SMS messages are fairly short, content-based spam filters may have their performance degraded. In this paper, we offer a new real, public and non-encoded SMS spam collection that is the largest one as far as we know. Moreover, we compare the performance achieved by several established machine learning methods. The results indicate that Support Vector Machine outperforms other evaluated classifiers and, hence, it can be used as a good baseline for further comparison.
+</text>
+</page>
+
+<page>
+<id> 06 </id>
+<title> On enhancing the performance of spam mail filtering system using semantic enrichment </title>
+<text>
+With the explosive growth of the Internet, e-mails are regarded as one of the most important methods to send e-mails as a substitute for traditional communications As e-mail has become a major mean of communication in the Internet age, exponentially growing spam mails have been raised as a main problem As a result of this problem, researchers have suggested many methodologies to solve it Especially, Bayesian classifier-based systems show high performances to filter spam mail and many commercial products available However, they have several problems First, it has a cold start problem, that is, training phase has to be done before execution of the system The system must be trained about spam and non-spam mail Second, its cost for filtering spam mail is higher than rule-based systems Last problem, we focus on, is that the filtering performance is decreased when E-mail has only a few terms which represent its contents To solve this problem, we suggest spam mail filtering system using concept indexing and Semantic Enrichment For the performance evaluation, we compare our experimental results with those of Bayesian classifier which is widely used in spam mail filtering The experimental result shows that the proposed system has improved performance in comparison with Bayesian classifier respectively.
+</text>
+</page>
+
+<page>
+<id> 07 </id>
+<title> Clustering ensemble for spam filtering </title>
+<text>
+One of the main problems that modern e-mail systems face is the management of the high degree of spam or junk mail they recieve. Those systems are expected to be able to distinguish between legitimate mail and spam; in order to present the final user as much interesting information as possible. This study presents a novel hybrid intelligent system using both unsupervised and supervised learning that can be easily adapted to be used in an individual or collaborative system. The system divides the spam filtering problem into two stages: firstly it divides the input data space into different similar parts. Then it generates several simple classifiers that are used to classify correctly messages that are contained in one of the parts previously determined. That way the efficiency of each classifier increases, as they can specialize in separate the spam from certain types of related messages. The hybrid system presented has been tested with a real e-mail data base and a comparison of its results with those obtained from other common classification methods is also included. This novel hybrid technique proves to be effective in the problem under study.
+</text>
+</page>
+
+<page>
+<id> 08 </id>
+<title> Detecting and filtering instant messaging spam: a global and personalized approach </title>
+<text>
+While Instant Message (IM) is gaining its popularity it is exposed to increasingly severe security threats. A serious problem is IM spam (spim) that is unsolicited commercial messages sent via IM messengers. Unlike email spam (unsolicited bulk e-mails), which has been a serious security issue for a long time and a number of techniques have been proposed to cope with, spim has not received adequate attention from the research community yet, and traditional spam filtering techniques are not directly applicable to spim due to its presence information and real time nature.
+In this paper, we present a new architecture for detecting and filtering spim. With the unique infrastructure of IM systems spim detection and filtering can be achieved not only at the client (receiver) side - for a personalized filtering - but also at the server side and various IM gateways - for a global filtering. Our technique integrates a number of mature spam defending techniques with modifications for IM applications, such as Black/White List, collaborative feedback based filtering, content-based technique, and challenge-response based filtering. We also design and implement new techniques for efficient spim detection and filtering, including filtering methods based on IM sending rate, content based spim defending techniques, fingerprint vector based filtering, text comparison filtering, and Bayesian filtering. We provide an analysis of their performances based on experimental results.
+</text>
+</page>
+
+<page>
+<id> 09 </id>
+<title> Dynamic simulation model for planning physical distribution systems: Discussion of the computer model </title>
+<text>
+The general class of problem considered in this paper is that of long-range planning of physical distribution systems. The physical distribution activity includes design and administration of systems to control raw material and finished goods flow from manufacturing source to point of consumption.2 From an analytical viewpoint, a physical distribution system consists of several interactive activity centers or subsystems among which tradeoffs in cost and service exist. These subsystems are often referred to as the components of a physical distribution system. In this research the classification of components includes: facility network, inventory allocations, communications, transportation, and unitization. With the exception of unitization, these components and the relative range of system design alternatives are familiar to the reader. Unitization, in a broad sense, involves material handling, packaging, and containerization.
+</text>
+</page>
+
+<page>
+<id> 10 </id>
+<title> The B-and-E model for adaptive wormhole routing </title>
+<text>
+In this paper we present a model named B-and-E (Basic-and-Extended) that can be conveniently used to design adaptable routing schemes for wormhole routing with a relatively low cost. The key idea is to divide channels into two separate groups: basic channels that are responsible for deadlock freedom, and extended channels that are in charge of adaptability. Applying the B-visibility:visible;  color: r-E Model to the well-known k-ary n-cube mesh topology, we construct a fully adaptable routing scheme with only two virtual channels sharing one physical channel. The simulation results demonstrate that, with respect to communication throughput and transfer latency, the new routing scheme indeed provides a superior performance. To explore the routing flexibility more efficiently, a heuristic policy called 2-Step Scoreboard is introduced, resulting in a further improvement.
+</text>
+</page>
+
+<page>
+<id> 11	</id>
+<title> An efficient non-dominated sorting method for evolutionary algorithms </title>
+<text>
+We present a new non-dominated sorting algorithm to generate the non-dominated fronts in multi-objective optimization with evolutionary algorithms, particularly the NSGA-II. The non-dominated sorting algorithm used by NSGA-II has a time complexity of O(MN2) in generating non-dominated fronts in one generation (iteration) for a population size N and M objective functions. Since generating non-dominated fronts takes the majority of total computational time (excluding the cost of fitness evaluations) of NSGA-II, making this algorithm faster will significantly improve the overall efficiency of NSGA-II and other genetic algorithms using non-dominated sorting. The new non-dominated sorting algorithm proposed in this study reduces the number of redundant comparisons existing in the algorithm of NSGA-II by recording the dominance information among solutions from their first comparisons. By utilizing a new data structure called the dominance tree and the divide-and-conquer mechanism, the new algorithm is faster than NSGA-II for different numbers of objective functions. Although the number of solution comparisons by the proposed algorithm is close to that of NSGA-II when the number of objectives becomes large, the total computational time shows that the proposed algorithm still has better efficiency because of the adoption of the dominance tree structure and the divide-and-conquer mechanism.
+</text>
+</page>
+
+<page>
+<id> 12 </id>
+<title> Generic discrimination: sorting and paritioning unshared data in linear time </title>
+<text>
+We introduce the notion of discrimination as a generalization of both sorting and partitioning and show that worst-case linear-time discrimination functions (discriminators) can be defined generically, by (co-)induction on an expressive language of order denotations. The generic definition yields discriminators that generalize both distributive sorting and multiset discrimination. The generic discriminator can be coded compactly using list comprehensions, with order denotations specified using Generalized Algebraic Data Types (GADTs). A GADT-free combinator formulation of discriminators is also given.
+
+We give some examples of the uses of discriminators, including a new most-significant-digit lexicographic sorting algorithm.
+
+Discriminators generalize binary comparison functions: They operate on n arguments at a time, but do not expose more information than the underlying equivalence, respectively ordering relation on the arguments. We argue that primitive types with equality (such as references in ML) and ordered types (such as the machine integer type), should expose their equality, respectively standard ordering relation, as discriminators: Having only a binary equality test on a type requires T(n2) time to find all the occurrences of an element in a list of length n, for each element in the list, even if the equality test takes only constant time. A discriminator accomplishes this in linear time. Likewise, having only a (constant-time) comparison function requires T(n log n) time to sort a list of n elements. A discriminator can do this in linear time.
+</text>
+</page>
+
+<page>
+<id> 13 </id>
+<title> Sorting and searching in the presence of memory faults (without redundancy) </title>
+<text>
+We investigate the design of algorithms resilient to memory faults, i. e., algorithms that, despite the corruption of some memory values during their execution, are able to produce a correct output on the set of uncorrupted values. In this framework, we consider two fundamental problems: sorting and searching. In particular, we prove that any O(nlog n) comparison-based sorting algorithm can tolerate at most O((nlog n)1/2) memory faults. Furthermore, we present one comparison-based sorting algorithm with optimal space and running time that is resilient to O((nlog n)1/3) faults. We also prove polylogarithmic lower and upper bounds on fault-tolerant searching.
+</text>
+</page>
+
+<page>
+<id> 14 </id>
+<title> Engineering a cache-oblivious sorting algorithm </title>
+<text>
+This paper is an algorithmic engineering study of cache-oblivious sorting. We investigate by empirical methods a number of implementation issues and parameter choices for the cache-oblivious sorting algorithm Lazy Funnelsort and compare the final algorithm with Quicksort, the established standard for comparison-based sorting, as well as with recent cache-aware proposals. The main result is a carefully implemented cache-oblivious sorting algorithm, which, our experiments show, can be faster than the best Quicksort implementation we are able to find for input sizes well within the limits of RAM. It is also at least as fast as the recent cache-aware implementations included in the test. On disk, the difference is even more pronounced regarding Quicksort and the cache-aware algorithms, whereas the algorithm is slower than a careful implementation of multiway Mergesort, such as TPIE.
+</text>
+</page>
+
+<page>
+<id> 15 </id>
+<title> The information cost of manipulation-resistance in recommender systems </title>
+<text>
+Attackers may seek to manipulate recommender systems in order to promote or suppress certain items. Existing defenses based on analysis of ratings also discard useful information from honest raters. In this paper, we show that this is unavoidable and provide a lower bound on how much information must be discarded. We use an information-theoretic framework to exhibit a fundamental tradeoff between manipulation-resistance and optimal use of genuine ratings in recommender systems. We define a recommender system to be (n, c)-robust if an attacker with n sybil identities cannot cause more than a limited amount c units of damage to predictions. We prove that any robust recommender system must also discard O(log (n/c)) units of useful information from each genuine rater.
+</text>
+</page>
+
+<page>
+<id> 16 </id>
+<title> Prototyping recommender systems in jcolibri </title>
+<text>
+Our goal is to support system developers in rapid prototyping recommender systems using Case-Based Reasoning (CBR) techniques. In this paper we describe how jCOLIBRI can serve to that goal. jCOLIBRI is an object-oriented framework in Java for building CBR systems that greatly benefits from the reuse of previously developed CBR systems.
+
+jCOLIBRI includes a case base of templates for case-based recommender systems that can be easily adapted to prototype a great variety of alternatives. We describe the contents of the case base and show experimental results from our experience using the recommender templates case base with mid-size projects from undergraduate students.
+</text>
+</page>
+
+<page>
+<id> 17 </id>
+<title> The value of personalised recommender systems to e-business: a case study </title>
+<text>
+Recommender systems have recently grown in popularity both in e-commerce and in research. However, there is little, if any, direct evidence in the literature of the value of recommender systems to e-Businesses, especially relating to consumer packaged goods (CPG) sold in a supermarket setting. We have been working in collaboration with LeShop (www.LeShop.ch), to gather real evidence of the added business value of a personalised recommender system. In this paper, we present our initial evaluation of the performance of our model-based personalised recommender systems over the 21-month period from May 2006 to January 2008, with particular focus on the added-value to the business. Our analysis covers shopper penetration, as well as the direct and indirect extra revenue generated by our recommender systems. One of the key lessons we have learnt during this case study is that the effect of a recommender system extends far beyond the direct extra revenue generated from the purchase of recommended items. The importance of maintaining updated model files was also found to be key to maintaining the performance of such model-based systems.
+</text>
+</page>
+
+<page>
+<id> 18 </id>
+<title> UTA-Rec: a recommender system based on multiple criteria analysis </title>
+<text>
+UTARec, a Recommender System that incorporates Multiple Criteria Analysis methodologies is presented. The system's performance and capability of addressing certain shortfalls of existing Recommender Systems is demonstrated in the case of movie recommendations. UTARec's accuracy is measured in terms of Kendall's tau and ROC curve analysis and is also compared to a Multiple Rating Collaborative Filtering (MRCF) approach. The results indicate that the proposed Multiple Criteria Analysis methodology can certainly improve the recommendation process by producing highly accurate results, from a user oriented perspective.
+</text>
+</page>
+
+<page>
+<id> 19 </id>
+<title> CNS: a new energy efficient transmission scheme for wireless sensor networks </title>
+<text>
+We present in this paper a new energy-efficient communication scheme called CNS (Compression with Null Symbol) that combines the power of data compression and communication through silent symbol. The concept of communication through silent symbol is borrowed from the energy efficient schemes proposed in Sinha (Proceedings of 6th IEEE consumer communications and networking conference (CCNC), Las Vegas, pp. 1---5, 2009), Ghosh et al. (Proceedings of 27th IEEE international performance computing and communications conference (IPCCC), USA, pp. 85---92, 2008), and Sinha and Sinha (Proceedings of international conference on distributed computing and internet technologies (ICDCIT), LNCS, pp. 139---144, 2008). We show that the average theoretical energy saving at the transmitter by CNS is 62.5%, assuming an ideal channel and for equal likelihood of all possible binary strings of a given length. Next, we propose a transceiver design that uses a hybrid modulation scheme utilizing FSK and ASK so as to keep the cost/complexity of the radio devices low. Considering an additive white gaussian noise (AWGN) channel and a non-coherent detection based receiver, CNS shows a saving in transmitter energy by 30% when compared to binary FSK, for equal likelihood of all possible binary strings of a given length. Simultaneously, there is a saving of 50% at the receiver for all types of data modulation due to halving of the transmitted data duration, compared to binary encoding. In contrast, RBNSiZeComm proposed in Sinha (Proceedings of 6th IEEE consumer communications and networking conference (CCNC), Las Vegas, pp. 1---5, 2009), TSS proposed in Ghosh et al. (Proceedings of 27th IEEE international performance computing and communications conference (IPCCC), USA, pp. 85---92, 2008) and RZE proposed in Sinha and Sinha (Proceedings of international conference on distributed computing and internet technologies (ICDCIT), LNCS, pp. 139---144, 2008) generate average transmitter energy savings of about 41, 20, and 35.2%, respectively. Also, at the receiver side, while RBNSiZeComm does not generate any saving, TSS and RZE produce about 36.9 and 12.5% savings on an average, respectively. Considering certain data types that may occur in the context of some wireless sensor networks (WSN) based applications (e.g., remote healthcare, agricultural WSNs, etc.), our simulation results demonstrate that for AWGN noisy channels, the transmitter side savings vary from about 33---50% on an average, while for RBNSiZeComm, this saving is about 33---61% on the same data set (Sinha in Proceedings of 6th IEEE consumer communications and networking conference (CCNC), Las Vegas, pp. 1---5, 2009). Thus, taking into account the low cost/complexity of the proposed transceiver, these results clearly establish that CNS can be a suitable candidate for communication in low power wireless sensor networks, such as in remote healthcare applications, body area networks, home automation, WSNs for agriculture and many others.
+</text>
+</page>
+
+<page>
+<id> 20 </id>
+<title> Software engineers' information behaviour and implicit relevance indicators </title>
+<text>
+Software engineering is a cognitively challenging process that requires continuous access to multiple sources of information. As a consequence Software Engineers spend a significant proportion of time (20-30%) searching for information and engaging in opportunistic programming practices, reusing the existing software elements. In this paper, we summarise the findings, discussing how software developers interact with information and information retrieval systems. Importantly we investigate to what extent a domain-specific search and recommendation system can be delivered in order to support their daily activities. Based on two user studies, a questionnaire and an automated observation of user interactions with the browser, we identify that software engineers engage in a finite number of work-related tasks and also develop a finite number of 'work practices'/'archetypes of behaviour'. Secondly we identify a group of domain-specific behaviours that can successfully be used for relevance feedback of a domain-specific and semi-collaborative information recommendation system that can support software engineers in performing their daily work-related tasks more effectively.
+</text>
+</page>
+
+<page>
+<id> 21 </id>
+<title> Effects of Usage-Based Feedback on Video Retrieval: A Simulation-Based Study </title>
+<text>
+We present a model for exploiting community-based usage information for video retrieval, where implicit usage information from past users is exploited in order to provide enhanced assistance in video retrieval tasks, and alleviate the effects of the semantic gap problem. We propose a graph-based model for all types of implicit and explicit feedback, in which the relevant usage information is represented. Our model is designed to capture the complex interactions of a user with an interactive video retrieval system, including the representation of sequences of user-system interaction during a search session. Building upon this model, four recommendation strategies are defined and evaluated. An evaluation strategy is proposed based on simulated user actions, which enables the evaluation of our recommendation strategies over a usage information pool obtained from 24 users performing four different TRECVid tasks. Furthermore, the proposed simulation approach is used to simulate usage information pools with different characteristics, with which the recommendation approaches are further evaluated on a larger set of tasks, and their performance is studied with respect to the scalability and quality of the available implicit information.
+</text>
+</page>
+
+<page>
+<id> 22 </id>
+<title> Recommender Systems Research: A Connection-Centric Survey </title>
+<text>
+Recommender systems attempt to reduce information overload and retain customers by selecting a subset of items from a universal set based on user preferences. While research in recommender systems grew out of information retrieval and filtering, the topic has steadily advanced into a legitimate and challenging research area of its own. Recommender systems have traditionally been studied from a content-based filtering vs. collaborative design perspective. Recommendations, however, are not delivered within a vacuum, but rather cast within an informal community of users and social context. Therefore, ultimately all recommender systems make connections among people and thus should be surveyed from such a perspective. This viewpoint is under-emphasized in the recommender systems literature. We therefore take a connection-oriented perspective toward recommender systems research. We posit that recommendation has an inherently social element and is ultimately intended to connect people either directly as a result of explicit user modeling or indirectly through the discovery of relationships implicit in extant data. Thus, recommender systems are characterized by how they model users to bring people together: explicitly or implicitly. Finally, user modeling and the connection-centric viewpoint raise broadening and social issues—such as evaluation, targeting, and privacy and trust—which we also briefly address.
+</text>
+</page>
+
+<page>
+<id> 23 </id>
+<title> The task-dependent effect of tags and ratings on social media access </title>
+<text>
+Recently, online social networks have emerged that allow people to share their multimedia files, retrieve interesting content, and discover like-minded people. These systems often provide the possibility to annotate the content with tags and ratings. Using a random walk through the social annotation graph, we have combined these annotations into a retrieval model that effectively balances the personal preferences and opinions of like-minded users into a single relevance ranking for either content, tags, or people. We use this model to identify the influence of different annotation methods and system design aspects on common ranking tasks in social content systems. Our results show that a combination of rating and tagging information can improve tasks like search and recommendation. The optimal influence of both sources on the ranking is highly dependent on the retrieval task and system design. Results on content search and tag suggestion indicate that the profile created by a user's annotations can be used effectively to adapt the ranking to personal preferences. The random walk reduces sparsity problems by smoothly integrating indirectly related concepts in the relevance ranking, which is especially valuable for cold-start users or individual tagging systems like YouTube and Flickr.
+</text>
+</page>
+
+<page>
+<id> 24 </id>
+<title> Using the structure of overlap between search results to rank retrieval systems without relevance judgments </title>
+<text>
+This paper addresses the problem of how to rank retrieval systems without the need for human relevance judgments, which are very resource intensive to obtain. Using TREC 3, 6, 7 and 8 data, it is shown how the overlap structure between the search results of multiple systems can be used to infer relative performance differences. In particular, the overlap structures for random groupings of five systems are computed, so that each system is selected an equal number of times. It is shown that the average percentage of a system's documents that are only found by it and no other systems is strongly and negatively correlated with its retrieval performance effectiveness, such as its mean average precision or precision at 1000. The presented method uses the degree of consensus or agreement a retrieval system can generate to infer its quality. This paper also addresses the question of how many documents in a ranked list need to be examined to be able to rank the systems. It is shown that the overlap structure of the top 50 documents can be used to rank the systems, often producing the best results. The presented method significantly improves upon previous attempts to rank retrieval systems without the need for human relevance judgments. This ''structure of overlap'' method can be of value to communities that need to identify the best experts or rank them, but do not have the resources to evaluate the experts' recommendations, since it does not require knowledge about the domain being searched or the information being requested.
+</text>
+</page>
+
+
+<page>
+<id> 25 </id>
+<title> On-chip hybrid power supply system for wireless sensor nodes </title>
+<text>
+With the miniaturization of electronic devices, small size but high capacity power supply system appears to be more and more important. A hybrid power source, which consists of a fuel cell (FC) and a rechargeable battery, has the advantages of long lifetime and good load following capabilities. In this paper, we propose the schematic of a hybrid power supply system, that can be integrated on a chip compatible with present CMOS process. Besides, considering the problem of maximizing the on-chip fuel cell's lifetime, we propose a modified dynamic power management (DPM) algorithm for on-chip fuel cell based hybrid power system in wireless sensor node design. Taking the wireless sensor node powered by this hybrid power system as an example, we analyze the improvement of the FC-Bat hybrid power system. The simulation results demonstrate that the on-chip FC-Bat hybrid power system can be used for wireless sensor node under different usage scenarios. Meanwhile, for an on-chip power system with 1cm2 area consumption, the wafer-level battery can power a typical sensor node for only about 5 months, while our on-chip hybrid power system will supply the same sensor node for 2 years steadily.
+</text>
+</page>
+
+
+
